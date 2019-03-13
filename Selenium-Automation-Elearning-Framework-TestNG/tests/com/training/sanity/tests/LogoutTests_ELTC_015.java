@@ -53,13 +53,13 @@ public class LogoutTests_ELTC_015 {
 		logoutPOM_ELTC_015.sendFirstName("ujjwal");
 		logoutPOM_ELTC_015.sendLastName("kumari");
 		logoutPOM_ELTC_015.sendEmail("kumariujjwal55@gmail.com");
-		logoutPOM_ELTC_015.sendUserName("ujjwal21");
+		logoutPOM_ELTC_015.sendUserName("ujjwal_21");
 		logoutPOM_ELTC_015.sendPass("uk1234"); 
 		logoutPOM_ELTC_015.sendConfirmPassword("uk1234");
 		logoutPOM_ELTC_015.clickStudent();
 		logoutPOM_ELTC_015.clickRegisterBtn();
 		logoutPOM_ELTC_015.clickHomePage();
-		logoutPOM_ELTC_015.sendId("ujjwal21");
+		logoutPOM_ELTC_015.sendId("ujjwal_21");
 		logoutPOM_ELTC_015.sendPassword("uk1234");
 		logoutPOM_ELTC_015.clickLoginBtn(); 
 		logoutPOM_ELTC_015.clickdropdown();

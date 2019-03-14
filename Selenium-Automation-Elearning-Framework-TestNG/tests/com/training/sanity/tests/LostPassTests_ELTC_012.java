@@ -65,7 +65,9 @@ public class LostPassTests_ELTC_012 {
 		lostPassPOM_ELTC_012.clickTeacher();
 		lostPassPOM_ELTC_012.clickRegisterBtn();
 		lostPassPOM_ELTC_012.clickILostMyPassword();
+		System.out.println("I lost my password is displayed.");
 		lostPassPOM_ELTC_012.sendUserNameText("ujjwal_71");
+		System.out.println("ujjwal_71");
 		lostPassPOM_ELTC_012.clickSendMessage();
 		String expectedResult = "This platform was unable to send the email. Please contact Site Admin for more information.";
 		String actualResult = lostPassPOM_ELTC_012.getTextForILostMyPassword();

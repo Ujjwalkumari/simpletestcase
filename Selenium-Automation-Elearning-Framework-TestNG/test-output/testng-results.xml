@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20623" started-at="2019-03-12T09:23:40Z" finished-at="2019-03-12T09:24:01Z">
+  <suite name="Default suite" duration-ms="20894" started-at="2019-03-14T04:39:25Z" finished-at="2019-03-14T04:39:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20623" started-at="2019-03-12T09:23:40Z" finished-at="2019-03-12T09:24:01Z">
+    <test name="Default test" duration-ms="20894" started-at="2019-03-14T04:39:25Z" finished-at="2019-03-14T04:39:46Z">
       <class name="com.training.sanity.tests.EditProfileTests_ELTC_011">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="setUpBeforeClass" is-config="true" duration-ms="0" started-at="2019-03-12T09:23:40Z" finished-at="2019-03-12T09:23:40Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2019-03-14T04:39:25Z" finished-at="2019-03-14T04:39:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="setUp" is-config="true" duration-ms="9293" started-at="2019-03-12T09:23:40Z" finished-at="2019-03-12T09:23:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="setUp" is-config="true" duration-ms="9319" started-at="2019-03-14T04:39:25Z" finished-at="2019-03-14T04:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="editProfileTest()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="editProfileTest" duration-ms="10296" started-at="2019-03-12T09:23:50Z" finished-at="2019-03-12T09:24:00Z">
+        <test-method status="PASS" signature="editProfileTest()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="editProfileTest" duration-ms="10540" started-at="2019-03-14T04:39:35Z" finished-at="2019-03-14T04:39:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editProfileTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="tearDown" is-config="true" duration-ms="1001" started-at="2019-03-12T09:24:00Z" finished-at="2019-03-12T09:24:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.EditProfileTests_ELTC_011@77caeb3e]" name="tearDown" is-config="true" duration-ms="1000" started-at="2019-03-14T04:39:45Z" finished-at="2019-03-14T04:39:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

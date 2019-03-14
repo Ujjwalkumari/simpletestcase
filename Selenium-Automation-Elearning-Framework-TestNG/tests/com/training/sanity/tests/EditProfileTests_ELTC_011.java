@@ -44,7 +44,7 @@ public class EditProfileTests_ELTC_011 {
 	@AfterMethod
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
-		//driver.quit();//close the browser
+		driver.quit();//close the browser
 	}
 	
 	//Call the Methods
@@ -54,9 +54,13 @@ public class EditProfileTests_ELTC_011 {
 		editProfilePOM_ELTC_011.sendPassword("uk12345");
 		editProfilePOM_ELTC_011.clickLoginBtn(); 
 		editProfilePOM_ELTC_011.clickEditProfile();
+		System.out.println("Profile page is displayed.");
 		editProfilePOM_ELTC_011.sendPass("uk12345");
+		System.out.println("uk12345");
 		editProfilePOM_ELTC_011.sendNewPassword("uk1234");
+		System.out.println("uk1234");
 		editProfilePOM_ELTC_011.sendConfirmPassword("uk1234");
+		System.out.println("uk1234");
 		editProfilePOM_ELTC_011.saveSettingsBtn();
 		String expectedResult = "Your new profile has been saved";
 		String actualResult = editProfilePOM_ELTC_011.getTextForSaveSettings();
